@@ -19,6 +19,7 @@ function sumMix(arr) {
     sum += newArr[j];
    }
    console.log(sum);
+   return sum;
  }
 
  sumMix(['5', '0', 9, 3, 2, 1, '9', 6, 7]);

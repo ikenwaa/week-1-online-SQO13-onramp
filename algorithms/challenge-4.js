@@ -32,6 +32,7 @@ function calculateGrade(marks) {
     }
     console.log(`Average is: ${avg}%`);
     console.log(`Grade is: ${grade}`);
+    return grade;
 }
 
 calculateGrade([100, 10, 89])

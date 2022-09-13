@@ -14,6 +14,7 @@ function filterList(arr) {
         }
     }
     console.log(newArr);
+    return newArr;
 }
 
 filterList([1,2,'a','b']);
