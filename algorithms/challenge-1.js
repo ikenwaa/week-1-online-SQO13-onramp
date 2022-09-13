@@ -15,10 +15,4 @@ function countTruthy(arr) {
     console.log(arr2.length);
 }
 
-<<<<<<< HEAD
-countTruthy(['', 3, 0, 30, 7])
-
 module.exports = countTruthy;
-=======
-module.exports = countTruthy;
->>>>>>> 4c07713593fa401df7670faa8eeb6741ac37be4c
