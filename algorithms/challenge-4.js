@@ -4,7 +4,7 @@
 // 1. Initialize total and assign 0
 // 2. Initialize avg and grade
 // 3. Loop through the marks to get the total
-// 4. Divide total by marks.length and round to 2 decimal places to get avg
+// 4. Divide total by marks.length to get avg
 // 5. Run avg through conditional statements to get grade
 
 function calculateGrade(marks) {
@@ -14,7 +14,7 @@ function calculateGrade(marks) {
 
     for (let i = 0; i < marks.length; i++) {
         total += marks[i];
-        avg = (total / marks.length).toFixed(2);
+        avg = Math.round(total / marks.length)
     }
     
     if (avg <= 49) {
@@ -32,6 +32,7 @@ function calculateGrade(marks) {
     }
     console.log(`Average is: ${avg}%`);
     console.log(`Grade is: ${grade}`);
+    return grade;
 }
 
 calculateGrade([100, 10, 89])
